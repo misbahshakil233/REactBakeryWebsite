@@ -1,0 +1,21 @@
+ <div className="flex flex-col md:flex-row h-[60vh] p-4 space-y-4 md:space-y-0 md:space-x-4 bg-gradient-to-r from-yellow-100 via-brown-700 to-red-200">
+     <div className="flex-1 bg-gradient-to-r from-yellow-900 via-brown-800 to-red-400 p-6 rounded-lg overflow-y-auto hover:transform hover:scale-110 hover:bg-gradient-to-l transition-all duration-500 shadow-lg hover:shadow-2xl">
+
+        <h2 className="text-xl font-semibold mb-4 text-brown-800">Our Bakery's Story</h2>
+        <p className="text-brown-700 italic ">
+          Welcome to our cozy bakery! We've been baking delightful treats for our community for over a decade.
+          From fresh bread to delicious pastries, our bakery is known for its quality and taste.
+          We use only the finest ingredients to bring the warmth of home baking to every bite.
+          Join us for a sweet experience filled with the aroma of freshly baked goods and a taste that will make you come back for more.
+        </p>
+      </div>
+      <div className="flex-1 bg-gradient-to-r from-yellow-900 via-brown-800 to-red-400 p-6 rounded-lg overflow-y-auto hover:transform hover:scale-110 hover:bg-gradient-to-l transition-all duration-500 shadow-lg hover:shadow-2xl">
+      <h2 className="text-xl font-semibold mb-4 text-brown-800">Our Specialties</h2>
+        <p className="text-brown-700 italic">
+          Our bakery offers a wide range of specialties, from classic croissants to unique pastries.
+          Each item is handcrafted with love and precision, ensuring the perfect balance of flavor and texture.
+          Whether you're in the mood for something sweet or savory, our bakery has something to satisfy every craving.
+          Come and explore our menu, and let your taste buds experience the best of baking.
+        </p>
+      </div>
+    </div>
