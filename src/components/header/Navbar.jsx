@@ -69,13 +69,13 @@ const Navbar = () => {
           <div className="flex items-center space-x-4 ml-auto">
             <a
               href="#login"
-              className="text-white font-bold px-4 py-2 bg-blue-500 rounded-md hover:bg-blue-600 transition duration-300"
+              className="text-white font-bold px-4 py-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-md hover:from-yellow-500 hover:via-orange-600 hover:to-red-600 transition duration-300"
             >
               Login
             </a>
             <a
               href="#buy"
-              className="text-white font-bold px-4 py-2 bg-green-500 rounded-md hover:bg-green-600 transition duration-300"
+              className="text-white font-bold px-4 py-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-md hover:from-yellow-500 hover:via-orange-600 hover:to-red-600 transition duration-300"
             >
               Buy
             </a>
@@ -117,16 +117,16 @@ const Navbar = () => {
           Contact
         </a>
         {/* Login and Buy buttons for mobile view */}
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex flex-col items-center  mt-4">
           <a
             href="#login"
-            className="text-white font-bold px-4 py-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-md mb-2 w-full text-center hover:bg-blue-600 transition duration-300"
+            className="text-white font-bold px-4 py-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-md mb-2 w-full text-center transition duration-300 hover:from-yellow-500 hover:via-orange-600 hover:to-red-600"
           >
             Login
           </a>
           <a
             href="#buy"
-            className="text-white font-bold px-4 py-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-md w-full text-center hover:bg-green-600 transition duration-300"
+            className="text-white font-bold px-4 py-2 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-md w-full text-center transition duration-300 hover:from-yellow-500 hover:via-orange-600 hover:to-red-600"
           >
             Buy
           </a>

@@ -72,13 +72,13 @@ const ServicesSection = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#8d755a] via-[#ae7437] to-[#b67b55] py-8">
+    <div className="bg-gradient-to-r from-[#f0d1ad] via-[#e8cbad] to-[#b0a9a5] py-8">
       <section id="services" className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-white">Our Services</h2>
-        <p className="text-lg mt-4 max-w-xl mx-auto text-white italic">
+        <h2 className="text-5xl font-bold text-black">Our Services</h2>
+        <p className="text-lg mt-4 max-w-xl mx-auto text-black italic">
           We offer a wide range of bakery products including cakes, bread, pastries, and more. Every item is made with the highest quality ingredients.
         </p>
-        <p className="text-lg mt-4 max-w-xl mx-auto text-white italic">
+        <p className="text-lg mt-4 max-w-xl mx-auto text-black italic">
           Our commitment to excellence ensures that every bite is a delightful experience. Visit us and indulge in the best bakery delights crafted with love and care.
         </p>
         <div className="relative w-full mt-6 overflow-hidden">

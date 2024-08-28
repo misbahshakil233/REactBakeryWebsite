@@ -2,21 +2,22 @@ import React from 'react';
 
 const AboutPage = () => {
   return (
-    <div className="relative overflow-hidden min-h-screen bg-gradient-to-r from-[#8d755a] via-[#ae7437] to-[#b67b55]">
+    <div className="relative overflow-hidden min-h-screen">
       <section id="about" className="relative p-6 text-center">
-        <div className="absolute inset-0 z-0 h-full w-full">
+        <div className="absolute inset-0 z-0 h-full w-full opacity-80">
           <div className="absolute inset-0 bg-slide bg-cover bg-center opacity-60"></div>
-          <div className="absolute inset-0 bg-cover bg-center opacity-0 slide-bg-1"></div>
-          <div className="absolute inset-0 bg-cover bg-center opacity-0 slide-bg-2"></div>
-          <div className="absolute inset-0 bg-cover bg-center opacity-0 slide-bg-3"></div>
-          <div className="absolute inset-0 bg-cover bg-center opacity-0 slide-bg-4"></div>
+          <div className="absolute inset-0 bg-cover bg-center opacity-40 slide-bg-1"></div>
+          <div className="absolute inset-0 bg-cover bg-center opacity-40 slide-bg-2"></div>
+          <div className="absolute inset-0 bg-cover bg-center opacity-40 slide-bg-3"></div>
+          <div className="absolute inset-0 bg-cover bg-center opacity-40 slide-bg-4"></div>
         </div>
-        <div className="relative z-10 p-6 bg-black bg-opacity-60 text-white rounded-lg max-w-lg mx-auto h-auto md:h-[32rem] transition-transform duration-300 transform hover:scale-105">
-          <h2 className="text-2xl md:text-4xl font-bold">About Our Bakery</h2>
-          <p className="text-sm md:text-lg mt-4 italic">
+
+        <div className="relative z-10 p-6 text-white max-w-lg mx-auto h-auto md:h-[32rem]">
+          <h2 className="text-2xl md:text-5xl font-extrabold text-black">About Our Bakery</h2>
+          <p className="text-sm md:text-lg mt-4 italic text-black">
             Welcome to our bakery, where every bite is a journey of flavors and tradition. We use only the finest ingredients, carefully sourced from local farms to bring you the freshest baked goods. From the moment you step inside, you'll be greeted by the aroma of freshly baked bread, pastries, and cakes that are as beautiful as they are delicious.
           </p>
-          <p className="text-sm md:text-lg mt-4 italic">
+          <p className="text-sm md:text-lg mt-4 italic text-black">
             Our skilled bakers blend traditional techniques with innovative flavors to create unique treats that you'll love. 
           </p>
           <div className="flex flex-wrap justify-center md:justify-evenly mt-6">
@@ -38,11 +39,9 @@ const AboutPage = () => {
               className="w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 transform rotate-45 animate-spin-slow opacity-70"
               style={{ animationDuration: "22s" }}
             />
-            </div>
-      
-
           </div>
-          </section>
+        </div>
+      </section>
       <style jsx>{`
         @keyframes slide {
           0% { opacity: 1; }

@@ -3,6 +3,9 @@ import Service from '../Dashboard/Service';
 import AboutPage from '../Dashboard/AboutPage';
 import Product from './Product';
 import Contact from './Contact';
+import Footer from './Footer';
+import BannarCounter from './BannarCounter';
+import AboutBakery from './AboutBakery';
 
 function Dashboard() {
   return (
@@ -80,14 +83,22 @@ function Dashboard() {
 
      
          <Service />
-         <AboutPage />
+         <BannarCounter />
+         <div className="relative overflow-hidden min-h-screen">
+      {/* About Page Section */}
+      <AboutPage />
+
+      {/* Remove unnecessary padding/margin between sections */}
+      <div className="mt-0 p-0">
+        {/* About Bakery Section */}
+        <AboutBakery />
+      </div>
+    </div>
         <Product />
          <Contact />
+         <Footer />
+        
 
-        {/* Footer */}
-        <footer className="bg-gradient-to-r from-[#634627] via-[#634627] to-[#271204] text-white p-4 text-center">
-          <p>&copy; 2024 My Bakery. All rights reserved.</p>
-        </footer>
       </div>
    
   );
