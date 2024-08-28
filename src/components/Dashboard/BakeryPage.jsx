@@ -11,6 +11,7 @@ const BakeryPage = () => {
 
   return (
     <div className="flex flex-col justify-start items-center min-h-screen p-4 bg-brown-100">
+     <section id='bakeryPage'>
       <div className="flex items-center w-full max-w-xl mt-4">
         <input 
           className="flex-grow h-14 p-2 border-2 border-brown-500 rounded-l-md text-center text-brown-900 shadow-md focus:outline-none focus:ring-2 focus:ring-brown-400" 
@@ -237,6 +238,7 @@ const BakeryPage = () => {
           </div>
         </div>
       </div>
+      </section>
     </div>
   );
 }

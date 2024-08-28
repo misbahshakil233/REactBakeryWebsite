@@ -65,6 +65,12 @@ const Navbar = () => {
           >
             Contact
           </a>
+          <a
+            href="#bakeryPage"
+            className="text-white font-extrabold text-2xl px-3 py-2 block hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-transparent hover:bg-clip-text transition duration-300 rounded-md"
+          >
+            All Product
+          </a>
           {/* Login and Buy buttons for desktop view */}
           <div className="flex items-center space-x-4 ml-auto">
             <a
@@ -116,6 +122,8 @@ const Navbar = () => {
         >
           Contact
         </a>
+        
+       
         {/* Login and Buy buttons for mobile view */}
         <div className="flex flex-col items-center  mt-4">
           <a

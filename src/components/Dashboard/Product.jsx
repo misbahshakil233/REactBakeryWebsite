@@ -13,7 +13,7 @@ const Product = () => {
       {/* Product Cards */}
       <div className="flex flex-wrap justify-center gap-6">
         {/* Card 1 */}
-        <div className="max-w-xs w-full sm:w-1/2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
+        <div className="max-w-xs w-full sm:w-1/2 p-2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
           <img
             src="https://th.bing.com/th/id/R.b1708ca5ac932e78018de50c035c792d?rik=tvWrjLfm2VP2aQ&riu=http%3a%2f%2fdaisyt13.files.wordpress.com%2f2012%2f01%2fbiscuits-and-gravy-e1327273264297.jpg&ehk=3i0haTPh7r5JEGJuVMX74zDBK58kK3FJnLRmISQEKps%3d&risl=&pid=ImgRaw&r=0"
             alt="Butter Milk Biscuits"
@@ -28,7 +28,7 @@ const Product = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="max-w-xs w-full sm:w-1/2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
+        <div className="max-w-xs w-full sm:w-1/2 p-2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
           <img
             src="https://th.bing.com/th/id/OIP.ezFqLY2HWRMzqF6jb7uyZAHaJ3?rs=1&pid=ImgDetMain"
             alt="Cake"
@@ -43,7 +43,7 @@ const Product = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="max-w-xs w-full sm:w-1/2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
+        <div className="max-w-xs w-full sm:w-1/2 p-2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
           <img
             src="https://th.bing.com/th/id/OIP.0iYNnRBumyglVmS-0VcBDgHaFj?w=768&h=576&rs=1&pid=ImgDetMain"
             alt="Crunchy Snacks"
@@ -58,7 +58,7 @@ const Product = () => {
         </div>
 
         {/* Card 4 */}
-        <div className="max-w-xs w-full sm:w-1/2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
+        <div className="max-w-xs w-full sm:w-1/2 p-2 lg:w-1/4 bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 hover:bg-slate-500 hover:text-white transition-all duration-300">
           <img
             src="https://th.bing.com/th/id/OIP.kVwNpvaZ7RC0bo4WPA7ztQHaE7?w=593&h=395&rs=1&pid=ImgDetMain"
             alt="Delicious Dessert"
@@ -71,9 +71,7 @@ const Product = () => {
             </p>
           </div>
         </div>
-        <div className=' relative top-80 h-20 w-5'>
-        <button className='bg-red-950 h-11 w-12 rounded-lg text-white'>NEXT</button>
-        </div>
+       
       </div>
     </section>
   );

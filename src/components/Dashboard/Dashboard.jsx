@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import BannarCounter from './BannarCounter';
 import AboutBakery from './AboutBakery';
+import BakeryPage from  './BakeryPage'
 
 function Dashboard() {
   return (
@@ -84,19 +85,12 @@ function Dashboard() {
      
          <Service />
          <BannarCounter />
-         <div className="relative overflow-hidden min-h-screen">
-      {/* About Page Section */}
-      <AboutPage />
-
-      {/* Remove unnecessary padding/margin between sections */}
-      <div className="mt-0 p-0">
-        {/* About Bakery Section */}
-        <AboutBakery />
-      </div>
-    </div>
-        <Product />
-         <Contact />
+          <AboutPage />
+          <AboutBakery />
+          <Product />
+          <Contact />
          <Footer />
+         <BakeryPage />
         
 
       </div>
