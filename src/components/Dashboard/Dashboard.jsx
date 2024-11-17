@@ -7,6 +7,7 @@ import Footer from './Footer';
 import BannarCounter from './BannarCounter';
 import AboutBakery from './AboutBakery';
 import BakeryPage from  './BakeryPage'
+import productHeader from './productHeader';
 
 function Dashboard() {
   return (
@@ -87,10 +88,11 @@ function Dashboard() {
          <BannarCounter />
           <AboutPage />
           <AboutBakery />
-          <Product />
+          {/* <Product /> */}
+          <productHeader />
           <Contact />
          <Footer />
-         <BakeryPage />
+       
         
 
       </div>
